@@ -16,7 +16,7 @@ class BeeIdDriver extends AbstractProvider
      *
      * @var array
      */
-    protected $scopes = [];
+    protected $scopes = ['user'];
 
     /**
      * url сайта bee-id
